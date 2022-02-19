@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+.headerCont {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 2em;
+  padding: 5px;
+}
+
+header {
+  background-color: #013220;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+header ::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.headerBrand {
+  float: left;
+  padding: 18px 0;
+}
+
+nav {
+  float: right;
+  font-size: 0.5em;
+  padding: 25px 0;
+}
+
+.break {
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin-left: 70px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+main {
+  color: #ABABAB;
+  text-align: center;
+}
+
+.mainCont {
+  font-size: 1.2em;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.formCont {
+  margin: auto;
+  font-size: 2em;
+  word-wrap: normal;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  width: 20%;
+  height: 1.3em;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
